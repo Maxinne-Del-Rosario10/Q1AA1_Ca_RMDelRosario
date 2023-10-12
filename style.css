@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:darkseagreen;
+    padding: 2.5vh;
+}
+.banner{
+    background-image: url(portada27.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+.banner h2{
+    background-color: azure;
+}
+
+.banner h2 span{
+    color: darkkhaki;
+}
+.banner a{
+    margin-top: 5vh;
+    padding: 1px;
+    background-color: lemonchiffon;
+}
+.footer{
+    justify-content: space-between;
+    background-color:darkseagreen;
+    padding: 2.5vh;
+}
+.copyright, socials{
+    display: inline-block;
+}
