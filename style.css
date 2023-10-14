@@ -5,32 +5,135 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color:darkseagreen;
-    padding: 2.5vh;
+    background-color:black;
+    padding: 2vh;
+}
+.logo{
+    background-image: url(IMG_2348.jpg);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.logo img{
+    width: 30px;
 }
 .banner{
-    background-image: url(portada27.jpeg);
+    background-image: url(IMG_2349.jpg);
     background-position: center;
     background-size: cover;
     height: 95vh;
-}
-.banner h2{
-    background-color: azure;
-}
+    color:white;
+    padding-top: 150px;
+    padding-left: 5vw;
 
-.banner h2 span{
+}
+.banner h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-shadow: 3px 3px blue;
+    font-size: 50pt;
+}
+.banner h3{
+    margin-bottom: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px blue;
+}
+.banner h1 span{
     color: darkkhaki;
 }
 .banner a{
-    margin-top: 5vh;
-    padding: 1px;
-    background-color: lemonchiffon;
+    padding: 1vh;
+    background-color: rgb(34, 54, 115);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: .9;
 }
 .footer{
     justify-content: space-between;
-    background-color:darkseagreen;
-    padding: 2.5vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 54, 115);
+    opacity: .9;
+    color: white;
+    font-weight: 900;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: 2vw;
+   
 }
-.copyright, socials{
+.copyright, .socials{
     display: inline-block;
+}
+.socials a{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration: none;
+    color: white;
+    margin-left: .5vw;
+    margin-right: .5vw;
+}
+.socials{
+    font-size: 20pt;
+    padding-right: 2vw;
+}
+.pinterest {
+    background-image: url(pinterest\ 1.png);
+    width: 1px;
+    height: 1px;
+    background-size: cover;
+}
+.facebook{
+    background-image: url(facebooklogo.png);
+    width: 1px;
+    height: 1px;
+    background-size: cover;
+}
+.instagram{
+    background-image: url(instagram.png);
+    width: 1px;
+    height: 1px;
+    background-size: cover;
+}
+.copyright{
+    margin-top: .75vh;
+}
+
+/**Gallery**/
+
+.gallery{
+    text-align: left;
+
+}
+.gallery .row{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.gallery .row img{
+    width: 25vw;
+    height: 25vw;
+    margin: 1vw;
+}
+.gallery h2{
+    margin-left: 2vw;
+    margin-top: 2vw;
+    font-size: 30pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px blue;
+    color: white;
+}
+.container{
+    background-image: url(IMG_2349.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
 }
